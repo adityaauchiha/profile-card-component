@@ -1,0 +1,121 @@
+body {
+  background-color: #19a2ae;
+   margin-top:300px;
+   margin-left: 800px;
+ font-family: 'Kumbh Sans', sans-serif;
+   background-image: url(file:///C:/Users/DELL/Documents/profile%20caard/images/bg-pattern-top.svg), url(file:///C:/Users/DELL/Documents/profile%20caard/images/bg-pattern-bottom.svg);
+background-repeat: no-repeat;
+background-position: right 48vw bottom 40vh, left 45vw top 48vh;
+background-size: 70%;
+}
+.attribution{
+  margin-top: 250px;
+      text-align: center;
+      margin-right: 750px;
+  }
+/* .top-image{ */
+    /* radius:100%; */
+  /* } */
+
+
+.card {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+.card-img-top{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-body{
+  padding:0;
+}
+.num{
+  color: #6a6f81;
+    font-weight: 400;
+}
+.card-title{
+  font-weight: 700;
+}
+.card-textt{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 70px;
+}
+.vector-img{
+border-radius:100%;
+margin:-50px;
+border: 5px solid white;
+}
+.vector-image{
+  display: flex;
+  justify-content: center;
+}
+.card-centerr{
+  display: flex;
+justify-content: space-around;
+}
+hr{
+  margin-top: 0;
+    margin-bottom: 16px;
+    border:1px solid;
+}
+.card-text-center{
+  font-size: 18px;
+border-top: 1px solid #969696;
+border-radius: 0 0 10px 10px;
+list-style: none;
+background: white;
+display: grid;
+grid-template-columns:repeat(3, 1fr);
+padding: 10px 10px 10px 10px;
+padding-left: 25px;
+margin: 0;
+padding-bottom: 0;
+}
+.card-Followers{
+  margin-left: -50px;
+      margin-top: 30px;
+      font-weight: 400;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+      color: #6a6f81;
+  }
+
+.card-likes{
+  margin-left: -40px;
+      margin-top: 30px;
+      font-weight: 400;
+      font-size: 0.8rem;
+letter-spacing: 1px;
+color: #6a6f81;
+}
+.card-photos{
+  margin-left: -40px;
+      margin-top: 30px;
+      font-weight: 400;
+      font-size: 0.8rem;
+letter-spacing: 1px;
+color: #6a6f81;
+}
+.li{
+  text-align: center;
+  font-weight: 700;
+display:flex;
+margin-top: 20px;
+}
+.like{
+  margin-left:70px;
+  font-size: 18px;
+}
+.like1{
+  margin-left:80px;
+  font-size: 18px;
+}
+.followers{
+  margin-left:20px;
+}
